@@ -1,0 +1,92 @@
+2026-10-12T16:47:14.669+05:30  INFO 129280 --- [bank-management] [main] c.e.b.BankManagementApplication          : Starting BankManagementApplication using Java 25.0.4.1 with PID 129280 (C:\Users\lenovo\OneDrive\Desktop\Spring\sts-tools-workspace\BankManagement\target\classes started by lenovo in C:\Users\lenovo\OneDrive\Desktop\Spring\sts-tools-workspace\BankManagement)
+2026-10-12T16:47:14.674+05:30 DEBUG 129280 --- [bank-management] [main] c.e.b.BankManagementApplication          : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-10-12T16:47:14.677+05:30  INFO 129280 --- [bank-management] [main] c.e.b.BankManagementApplication          : The following 1 profile is active: "dev"
+2026-10-12T16:47:16.537+05:30  INFO 129280 --- [bank-management] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-12T16:47:16.686+05:30  INFO 129280 --- [bank-management] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 112 ms. Found 1 JPA repository interface.
+2026-10-12T16:47:18.051+05:30  INFO 129280 --- [bank-management] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-12T16:47:18.084+05:30  INFO 129280 --- [bank-management] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-12T16:47:18.085+05:30  INFO 129280 --- [bank-management] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-12T16:47:18.199+05:30  INFO 129280 --- [bank-management] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3378 ms
+2026-10-12T16:47:18.501+05:30  INFO 129280 --- [bank-management] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-12T16:47:18.590+05:30  INFO 129280 --- [bank-management] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-10-12T16:47:19.467+05:30  INFO 129280 --- [bank-management] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-12T16:47:19.528+05:30  INFO 129280 --- [bank-management] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-12T16:47:20.142+05:30  INFO 129280 --- [bank-management] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2110684a
+2026-10-12T16:47:20.146+05:30  INFO 129280 --- [bank-management] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-12T16:47:20.302+05:30  INFO 129280 --- [bank-management] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bank_dev]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: bank_dev/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-12T16:47:21.796+05:30  INFO 129280 --- [bank-management] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-12T16:47:21.909+05:30  INFO 129280 --- [bank-management] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-12T16:47:22.025+05:30  INFO 129280 --- [bank-management] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-12T16:47:22.459+05:30  WARN 129280 --- [bank-management] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-12T16:47:23.038+05:30  INFO 129280 --- [bank-management] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-12T16:47:23.048+05:30  INFO 129280 --- [bank-management] [main] c.e.b.BankManagementApplication          : Started BankManagementApplication in 9.232 seconds (process running for 11.21)
+2026-10-12T16:53:56.499+05:30  INFO 129280 --- [bank-management] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-12T16:53:56.500+05:30  INFO 129280 --- [bank-management] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-12T16:53:56.534+05:30  INFO 129280 --- [bank-management] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 32 ms
+2026-10-12T16:53:56.865+05:30  INFO 129280 --- [bank-management] [http-nio-8080-exec-2] c.e.b.service.AccountService             : money transfer started
+2026-10-12T16:53:56.865+05:30 DEBUG 129280 --- [bank-management] [http-nio-8080-exec-2] c.e.b.service.AccountService             : Validating transfer amount
+2026-10-12T16:53:57.598+05:30  INFO 129280 --- [bank-management] [http-nio-8080-exec-2] c.e.b.service.AccountService             : Money transfer completed successfully
+2026-10-12T17:00:52.457+05:30  INFO 129280 --- [bank-management] [http-nio-8080-exec-3] c.e.b.service.AccountService             : money transfer started
+2026-10-12T17:00:52.458+05:30 DEBUG 129280 --- [bank-management] [http-nio-8080-exec-3] c.e.b.service.AccountService             : Validating transfer amount
+2026-10-12T17:01:09.771+05:30  INFO 129280 --- [bank-management] [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-10-12T17:01:09.778+05:30  INFO 129280 --- [bank-management] [RMI TCP Connection(18)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-12T17:01:09.797+05:30  INFO 129280 --- [bank-management] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-12T17:01:09.805+05:30  INFO 129280 --- [bank-management] [RMI TCP Connection(18)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-12T17:01:09.809+05:30  INFO 129280 --- [bank-management] [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-12T17:01:09.827+05:30  INFO 129280 --- [bank-management] [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-10-12T17:01:16.369+05:30  INFO 68324 --- [bank-management] [main] c.e.b.BankManagementApplication          : Starting BankManagementApplication using Java 25.0.4.1 with PID 68324 (C:\Users\lenovo\OneDrive\Desktop\Spring\sts-tools-workspace\BankManagement\target\classes started by lenovo in C:\Users\lenovo\OneDrive\Desktop\Spring\sts-tools-workspace\BankManagement)
+2026-10-12T17:01:16.380+05:30 DEBUG 68324 --- [bank-management] [main] c.e.b.BankManagementApplication          : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-10-12T17:01:16.382+05:30  INFO 68324 --- [bank-management] [main] c.e.b.BankManagementApplication          : The following 1 profile is active: "dev"
+2026-10-12T17:01:18.117+05:30  INFO 68324 --- [bank-management] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-12T17:01:18.244+05:30  INFO 68324 --- [bank-management] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 104 ms. Found 1 JPA repository interface.
+2026-10-12T17:01:19.189+05:30  INFO 68324 --- [bank-management] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-12T17:01:19.250+05:30  INFO 68324 --- [bank-management] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-12T17:01:19.253+05:30  INFO 68324 --- [bank-management] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-12T17:01:19.396+05:30  INFO 68324 --- [bank-management] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2855 ms
+2026-10-12T17:01:19.728+05:30  INFO 68324 --- [bank-management] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-12T17:01:19.831+05:30  INFO 68324 --- [bank-management] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-10-12T17:01:20.765+05:30  INFO 68324 --- [bank-management] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-12T17:01:20.863+05:30  INFO 68324 --- [bank-management] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-12T17:01:21.759+05:30  INFO 68324 --- [bank-management] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1cb44a2f
+2026-10-12T17:01:21.766+05:30  INFO 68324 --- [bank-management] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-12T17:01:22.171+05:30  INFO 68324 --- [bank-management] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bank_dev]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: bank_dev/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-12T17:01:24.367+05:30  INFO 68324 --- [bank-management] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-12T17:01:24.548+05:30  INFO 68324 --- [bank-management] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-12T17:01:24.766+05:30  INFO 68324 --- [bank-management] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-12T17:01:25.744+05:30  WARN 68324 --- [bank-management] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-12T17:01:26.903+05:30  INFO 68324 --- [bank-management] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-12T17:01:26.932+05:30  INFO 68324 --- [bank-management] [main] c.e.b.BankManagementApplication          : Started BankManagementApplication in 11.878 seconds (process running for 13.964)
+2026-10-12T17:01:39.162+05:30  INFO 68324 --- [bank-management] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-12T17:01:39.163+05:30  INFO 68324 --- [bank-management] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-12T17:01:39.172+05:30  INFO 68324 --- [bank-management] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2026-10-12T17:01:39.569+05:30  INFO 68324 --- [bank-management] [http-nio-8080-exec-2] c.e.b.service.AccountService             : money transfer started
+2026-10-12T17:01:39.570+05:30 DEBUG 68324 --- [bank-management] [http-nio-8080-exec-2] c.e.b.service.AccountService             : Validating transfer amount
+2026-10-12T22:35:47.835+05:30  WARN 68324 --- [bank-management] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h33m55s997ms75µs800ns).
+2026-10-12T22:59:11.548+05:30  INFO 68324 --- [bank-management] [RMI TCP Connection(29)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-10-12T22:59:11.556+05:30  INFO 68324 --- [bank-management] [RMI TCP Connection(29)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-12T22:59:11.573+05:30  INFO 68324 --- [bank-management] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-12T22:59:11.581+05:30  INFO 68324 --- [bank-management] [RMI TCP Connection(29)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-12T22:59:11.587+05:30  INFO 68324 --- [bank-management] [RMI TCP Connection(29)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-12T22:59:11.595+05:30  INFO 68324 --- [bank-management] [RMI TCP Connection(29)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
